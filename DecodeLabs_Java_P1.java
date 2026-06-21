@@ -19,7 +19,7 @@ public class DecodeLabs_Java_P1 {
             int target = random.nextInt(100) + 1; 
             boolean win = false;
             int attempts = 0;
-            int maxAttempts = 10; // Optimization: Attempt Limiter
+            int maxAttempts = 3; // Optimization: Attempt Limiter
 
             System.out.println("\nEngine Ready: I have generated a random number between 1 and 100.");
             System.out.println("Mission: You have " + maxAttempts + " attempts to deduce it.");
